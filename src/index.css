@@ -1,3 +1,14 @@
-.smooth-toggle {
-  transition:  0.4s ease-in-out, padding 0.3s ease;
+/* @keyframes expandHeight {
+  from {
+    height: 100px;
+  }
+  to {
+    height: 300px;
+  }
 }
+
+.expand {
+  width: 100vw;
+  background: orange;
+  animation: expandHeight 0.8s ease forwards;
+} */

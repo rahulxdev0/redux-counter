@@ -1,24 +1,34 @@
 import { useRef } from "react";
-import { useInView } from "./hooks/useInView";
+import "./App.css";
+import HeroSection2 from "./components/practices/HeroSection2";
+import { useInView2 } from "./hooks/useInView2";
+
 
 const App = () => {
-  const cardRef = useRef(null);
-  const isInView = useInView(cardRef);
-  console.log("value", isInView)
+  const boxRef = useRef(null);
+
+  const inView = useInView2(boxRef);
 
   return (
-    <div className="h-[300vh] w-full bg-neutral-900 text-white p-10">
-      
-      <div
-        ref={cardRef}
-        className="w-[200px] h-[200px] bg-orange-700 mx-auto mt-[120vh]"
-      />
+    // <div className="min-h-[200vh] w-full bg-neutral-900 text-white">
 
-      <div className="mt-10 text-center text-xl">
-        {isInView ? "✅ Element is in the screen" : "❌ Element is out of screen"}
-      </div>
+    //   <h1 className="mb-20 text-3xl">Scroll down...</h1>
+    //   <div className="h-[100vh]">
+    //     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus unde id molestiae soluta labore distinctio natus ab quae. Veritatis, delectus aliquid quasi odit ducimus incidunt perspiciatis deserunt facilis tempora recusandae!</p>
+    //   </div>
 
-    </div>
+    //   <div
+    //     ref={boxRef}
+    //     className={`bg-orange-700  ${inView ? "expand" : ""}`}
+    //     style={{
+    //       height: "100px",
+    //     }}
+    //   />
+
+    // </div>
+    <>
+      <HeroSection2 />
+    </>
   );
 };
 
