@@ -2,6 +2,9 @@ import { useRef } from "react";
 import "./App.css";
 import HeroSection2 from "./components/practices/HeroSection2";
 import { useInView2 } from "./hooks/useInView2";
+import InfiniteScroll from "./components/practices/InfiniteScroll";
+import OpenClose from "./components/practices/OpenClose";
+import Form from "./pattern/currying/Form";
 
 
 const App = () => {
@@ -27,7 +30,10 @@ const App = () => {
 
     // </div>
     <>
-      <HeroSection2 />
+      {/* <HeroSection2 /> */}
+      {/* <InfiniteScroll />
+      <OpenClose /> */}
+      <Form />
     </>
   );
 };

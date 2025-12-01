@@ -4,42 +4,50 @@ import { animate, stagger } from "motion";
 const data = [
   {
     id: 1,
-    title: "Open Close Principle",
+    title: "Diamond Jewelry",
     description:
-      "The Open/Closed Principle states that software entities should be open for extension but closed for modification. This allows flexibility and maintainability.",
+      "Discover our stunning collection of diamond jewelry, featuring certified diamonds set in premium metals. From elegant solitaires to intricate designs, each piece radiates timeless beauty and brilliance.",
     principles: [
-      "Software entities should be open for extension.",
-      "Software entities should be closed for modification.",
+      "Certified diamonds with IGI/GIA authentication",
+      "Available in 14K, 18K gold and platinum settings",
+      "Lifetime buyback guarantee and free resizing",
+      "Complimentary jewelry insurance for one year",
     ],
   },
   {
     id: 2,
-    title: "Single Responsibility Principle",
+    title: "Gold Collections",
     description:
-      "The Single Responsibility Principle (SRP) says a class should have only one reason to change.",
+      "Explore our exquisite range of 22K and 18K gold jewelry, blending traditional craftsmanship with contemporary designs. Perfect for weddings, festivals, and everyday elegance.",
     principles: [
-      "A class should have only one reason to change.",
-      "A class should have only one job or responsibility.",
+      "Hallmarked BIS certified 22K and 18K gold",
+      "Wide range of traditional and modern designs",
+      "Zero deduction exchange policy on old gold",
+      "Custom design and personalization services available",
     ],
   },
   {
     id: 3,
-    title: "Liskov Substitution Principle",
+    title: "Bridal Collection",
     description:
-      "Objects of a superclass should be replaceable with objects of a subclass without altering correctness.",
+      "Make your special day unforgettable with our exclusive bridal jewelry collection. Featuring complete sets of necklaces, earrings, bangles, and maang tikka crafted with intricate detail.",
     principles: [
-      "Superclasses should be replaceable by subclasses.",
-      "Subclasses must extend behavior without changing base behavior.",
+      "Complete bridal sets and individual pieces available",
+      "Traditional temple jewelry and contemporary designs",
+      "Expert consultation and customization for your wedding",
+      "Premium gift packaging and home delivery",
     ],
   },
   {
     id: 4,
-    title: "Interface Segregation Principle",
+    title: "Silver & Platinum",
     description:
-      "Clients should not be forced to depend on interfaces they don't use.",
+      "Contemporary silver and platinum jewelry that combines durability with sophisticated style. Ideal for daily wear and special occasions alike.",
     principles: [
-      "No client should be forced to depend on unused methods.",
-      "Interfaces should be specific to the clients.",
+      "Pure 925 sterling silver and 95% platinum jewelry",
+      "Hypoallergenic and tarnish-resistant designs",
+      "Modern minimalist to ethnic fusion styles",
+      "Affordable luxury with lifetime maintenance",
     ],
   },
 ];
